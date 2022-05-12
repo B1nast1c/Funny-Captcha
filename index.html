@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<div>
+    <div class="main">
+        <p id="help" style="display: none; position: absolute;">Presiona las esferas de los colores indicados 3 veces</p>
+        <p class="score" id="score1" style="position: absolute;">0</p>
+        <div class="game">
+        <button id="retry" style="display: none; position: absolute;">Retry</button>
+        <p id="errores" style="display: none; position: absolute;">Errores (máximo 3): </p>
+        </div>
+    </div>
+</div>    
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    margin-left: 500px;
+}
+
+.gameBoard{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.btn{
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    margin: 300px 275px;
+    z-index: -1;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.bubble, .baddy{
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    font-size: 1.2em;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    cursor: crosshair;
+}
+
+#help{
+    margin-top: 165px;
+}
+
+#retry{
+    margin-top: 460px;
+}
+
+.colors{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 200px 425px;
+}
+
+#color1{
+    margin-top: -350px;
+}
+
+.colors::after{
+    content: ':';
+    font-size: 40px;
+    margin-left: 65px;
+}
+
+.score{
+    margin-left: 505px;
+    margin-top: 302px;
+    font-size: 35px;
+}
+
+#score2{
+    margin-top: 337px;
+}
+
+#errores{
+    margin-top: 500px;
+}

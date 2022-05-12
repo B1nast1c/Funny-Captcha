@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "get-image-colors": "^4.0.1",
+    "python-shell": "^3.0.1"
+  },
+  "type": "module"
+}
